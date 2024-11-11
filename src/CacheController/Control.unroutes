@@ -1,0 +1,45 @@
+Release 13.4 - par O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Sun Oct 13 20:56:44 2024
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 33 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   sys_vio/U0/I_VIO/UPDATE<0>
+   sys_vio/U0/I_VIO/UPDATE<10>
+   sys_vio/U0/I_VIO/UPDATE<11>
+   sys_vio/U0/I_VIO/UPDATE<12>
+   sys_vio/U0/I_VIO/UPDATE<13>
+   sys_vio/U0/I_VIO/UPDATE<14>
+   sys_vio/U0/I_VIO/UPDATE<15>
+   sys_vio/U0/I_VIO/UPDATE<16>
+   sys_vio/U0/I_VIO/UPDATE<17>
+   sys_vio/U0/I_VIO/UPDATE<18>
+   sys_vio/U0/I_VIO/UPDATE<19>
+   sys_vio/U0/I_VIO/UPDATE<1>
+   sys_vio/U0/I_VIO/UPDATE<20>
+   sys_vio/U0/I_VIO/UPDATE<21>
+   sys_vio/U0/I_VIO/UPDATE<22>
+   sys_vio/U0/I_VIO/UPDATE<23>
+   sys_vio/U0/I_VIO/UPDATE<24>
+   sys_vio/U0/I_VIO/UPDATE<25>
+   sys_vio/U0/I_VIO/UPDATE<26>
+   sys_vio/U0/I_VIO/UPDATE<27>
+   sys_vio/U0/I_VIO/UPDATE<28>
+   sys_vio/U0/I_VIO/UPDATE<29>
+   sys_vio/U0/I_VIO/UPDATE<2>
+   sys_vio/U0/I_VIO/UPDATE<30>
+   sys_vio/U0/I_VIO/UPDATE<31>
+   sys_vio/U0/I_VIO/UPDATE<3>
+   sys_vio/U0/I_VIO/UPDATE<4>
+   sys_vio/U0/I_VIO/UPDATE<5>
+   sys_vio/U0/I_VIO/UPDATE<6>
+   sys_vio/U0/I_VIO/UPDATE<7>
+   sys_vio/U0/I_VIO/UPDATE<8>
+   sys_vio/U0/I_VIO/UPDATE<9>
+   sys_vio/U0/I_VIO/reset_f_edge/iDOUT<1>
+
+

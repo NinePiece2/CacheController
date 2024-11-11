@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/ControlTestBench_isim_beh.exe" -prj "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/ControlTestBench_beh.prj" "work.ControlTestBench" 

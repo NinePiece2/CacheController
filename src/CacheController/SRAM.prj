@@ -1,0 +1,2 @@
+vhdl work "ipcore_dir/BRAM.vhd"
+vhdl work "SRAM.vhd"

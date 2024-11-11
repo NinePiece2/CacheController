@@ -1,0 +1,47 @@
+Running: /CMC/tools/xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/ControlTestBench_isim_beh.exe -prj /home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/ControlTestBench_beh.prj work.ControlTestBench 
+ISim O.87xd (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/ipcore_dir/bram.vhd" into library work
+Parsing VHDL file "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/SRAM.vhd" into library work
+Parsing VHDL file "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/SDRAMController.vhd" into library work
+Parsing VHDL file "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/ipcore_dir/vio.vhd" into library work
+Parsing VHDL file "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/ipcore_dir/ila.vhd" into library work
+Parsing VHDL file "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/ipcore_dir/icon.vhd" into library work
+Parsing VHDL file "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/CPU_gen.vhd" into library work
+Parsing VHDL file "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/CacheController.vhd" into library work
+Parsing VHDL file "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.vhd" into library work
+Parsing VHDL file "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/ControlTestBench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 126616 KB
+Fuse CPU Usage: 930 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture icon_a of entity icon [icon_default]
+Compiling architecture ila_a of entity ila [ila_default]
+Compiling architecture vio_a of entity vio [vio_default]
+Compiling architecture behavioral of entity CPU_gen [cpu_gen_default]
+Compiling architecture behavioral of entity CacheController [cachecontroller_default]
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V6_3_output_stage [\BLK_MEM_GEN_V6_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V6_3_softecc_output_reg_stage [\BLK_MEM_GEN_V6_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V6_3_mem_module [\BLK_MEM_GEN_V6_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V6_3 [\BLK_MEM_GEN_V6_3("blk_mem_gen_v...]
+Compiling architecture bram_a of entity bram [bram_default]
+Compiling architecture behavioral of entity SRAM [sram_default]
+Compiling architecture behavioral of entity SDRAMController [sdramcontroller_default]
+Compiling architecture behavioral of entity Control [control_default]
+Compiling architecture behavior of entity controltestbench
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 34 VHDL Units
+Built simulation executable /home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/ControlTestBench_isim_beh.exe
+Fuse Memory Usage: 1231172 KB
+Fuse CPU Usage: 1180 ms
+GCC CPU Usage: 1250 ms

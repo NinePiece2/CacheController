@@ -1,0 +1,5 @@
+work	"CPU_gen.vhd"
+work	"CacheController.vhd"
+work	"Control.vhd"
+work	"SDRAMController.vhd"
+work	"SRAM.vhd"

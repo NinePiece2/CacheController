@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="NgdBuild" num="1317" delta="old" >Using core <arg fmt="%s" index="1">chipscope_ila_v1</arg> requires a ChipScopePro license.  The following blocks are instances of core <arg fmt="%s" index="2">chipscope_ila_v1</arg>:
+</msg>
+
+<msg type="info" file="NgdBuild" num="1317" delta="old" >Using core <arg fmt="%s" index="1">chipscope_vio_v1</arg> requires a ChipScopePro license.  The following blocks are instances of core <arg fmt="%s" index="2">chipscope_vio_v1</arg>:
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="137" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;sys_vio/ASYNC_OUT&lt;0&gt;&quot; TNM_NET = D_CLK&gt;</arg>: No appropriate instances for the TNM constraint are driven by &quot;<arg fmt="%s" index="2">sys_vio/ASYNC_OUT&lt;0&gt;</arg>&quot;.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="194" delta="old" >The <arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">D_CLK</arg>&apos;, does not directly or indirectly drive any flip-flops, latches and/or RAMs and is not actively used by any referencing constraint.
+ </msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">sys_vio/U0/I_VIO/reset_f_edge/I_H2L.U_DOUT</arg>&apos; has unconnected output pin
+</msg>
+
+</messages>
+

@@ -1,0 +1,2 @@
+# Clock Signal
+Net "clk" loc = "C9" ;

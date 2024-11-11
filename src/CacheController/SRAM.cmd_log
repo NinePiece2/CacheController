@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/SRAM.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/SRAM.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/SRAM.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/SRAM.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-5 SRAM.ngc SRAM.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o SRAM_map.ncd SRAM.ngd SRAM.pcf 

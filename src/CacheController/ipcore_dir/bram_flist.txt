@@ -1,0 +1,15 @@
+# Output products list for <BRAM>
+BRAM.asy
+BRAM.gise
+BRAM.ngc
+BRAM.sym
+BRAM.vhd
+BRAM.vho
+BRAM.xco
+BRAM.xise
+BRAM_flist.txt
+BRAM_xmdf.tcl
+_xmsgs/pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_v6_3_readme.txt
+summary.log

@@ -1,0 +1,413 @@
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+netgen -intstyle ise -ar Structure -tm Control -w -dir netgen/synthesis -ofmt vhdl -sim Control.ngc Control_synthesis.vhd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 
+xst -intstyle ise -ifn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.xst" -ofn "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/Control.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ControlImplementation.ucf -p xc3s500e-fg320-5 Control.ngc Control.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Control_map.ncd Control.ngd Control.pcf 
+par -w -intstyle ise -ol high -t 1 Control_map.ncd Control.ncd Control.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Control.twx Control.ncd -o Control.twr Control.pcf -ucf ControlImplementation.ucf 
+bitgen -intstyle ise -f Control.ut Control.ncd 

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/ControlTestBench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="controltestbench" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/controltestbench/uut/cache_controller/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/addrin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addrin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/wrrdin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wrrdin</obj_property>
+      <obj_property name="ObjectShortName">wrrdin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/cs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/addrout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addrout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addrout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/wrrdout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wrrdout</obj_property>
+      <obj_property name="ObjectShortName">wrrdout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/mstrb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mstrb</obj_property>
+      <obj_property name="ObjectShortName">mstrb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/dincontrol" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dincontrol</obj_property>
+      <obj_property name="ObjectShortName">dincontrol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/doutcontrol" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">doutcontrol</obj_property>
+      <obj_property name="ObjectShortName">doutcontrol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/wen" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/sramaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sramaddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sramaddr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/ready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/outstate" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outstate[3:0]</obj_property>
+      <obj_property name="ObjectShortName">outstate[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/inputtag" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inputtag[7:0]</obj_property>
+      <obj_property name="ObjectShortName">inputtag[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/inputindex" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inputindex[2:0]</obj_property>
+      <obj_property name="ObjectShortName">inputindex[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/inputoffset" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inputoffset[4:0]</obj_property>
+      <obj_property name="ObjectShortName">inputoffset[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/currentsramtagarray" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">currentsramtagarray[7:0]</obj_property>
+      <obj_property name="ObjectShortName">currentsramtagarray[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/dirtybits" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dirtybits[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dirtybits[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/validbits" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">validbits[7:0]</obj_property>
+      <obj_property name="ObjectShortName">validbits[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/cachehit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cachehit</obj_property>
+      <obj_property name="ObjectShortName">cachehit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/dirtybit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dirtybit</obj_property>
+      <obj_property name="ObjectShortName">dirtybit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/validbit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">validbit</obj_property>
+      <obj_property name="ObjectShortName">validbit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/current_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/next_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/counter" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">counter</obj_property>
+      <obj_property name="ObjectShortName">counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/cache_controller/i" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/dout_cpu_to_cache" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout_cpu_to_cache[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_cpu_to_cache[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/sram_cpu_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sram_cpu_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sram_cpu_dout[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/sdramcontroller_to_sram_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sdramcontroller_to_sram_din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sdramcontroller_to_sram_din[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/controltestbench/uut/sram_to_sdram_dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sram_to_sdram_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sram_to_sdram_dout[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

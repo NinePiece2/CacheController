@@ -1,0 +1,14 @@
+# Output products list for <vio>
+_xmsgs/pn_parser.xmsgs
+vio.asy
+vio.cdc
+vio.gise
+vio.ngc
+vio.sym
+vio.vhd
+vio.vho
+vio.xco
+vio.xise
+vio_flist.txt
+vio_readme.txt
+vio_xmdf.tcl

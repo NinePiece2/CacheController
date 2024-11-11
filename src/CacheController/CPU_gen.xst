@@ -1,0 +1,5 @@
+set -tmpdir "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/xst/projnav.tmp"
+set -xsthdpdir "/home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/xst"
+elaborate
+-ifn CPU_gen.prj
+-ifmt mixed

@@ -1,0 +1,28 @@
+Command line:
+   CacheControllerTestBench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  34323
+
+Sat Oct 12 22:07:46 2024
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 218.456 Meg
+
+ Total Signals          : 358
+ Total Nets             : 5107
+ Total Signal Drivers   : 150
+ Total Blocks           : 27
+ Total Primitive Blocks : 17
+ Total Processes        : 94
+ Total Traceable Variables  : 228
+ Total Scalar Nets and Variables : 6563
+
+ Total Simulation Time: 6.68 sec
+
+ Current Memory Usage: 293.954 Meg
+
+Sat Oct 12 22:31:29 2024
+

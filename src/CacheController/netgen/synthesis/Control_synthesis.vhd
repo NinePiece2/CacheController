@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------------
+-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--------------------------------------------------------------------------------
+--   ____  ____
+--  /   /\/   /
+-- /___/  \  /    Vendor: Xilinx
+-- \   \   \/     Version: O.87xd
+--  \   \         Application: netgen
+--  /   /         Filename: .vhd
+-- /___/   /\     Timestamp: Sat Oct 12 23:02:05 2024
+-- \   \  /  \ 
+--  \___\/\___\
+--             
+-- Command	: -intstyle ise -ar Structure -tm Control -w -dir netgen/synthesis -ofmt vhdl -sim Control.ngc Control_synthesis.vhd 
+-- Device	: xc3s500e-5-fg320
+-- Input file	: Control.ngc
+-- Output file	: /home/student1/r2sagu/COE758/Project1CacheController/ProjectFiles/CacheController/netgen/synthesis/Control_synthesis.vhd
+-- # of Entities	: 1
+-- Design Name	: Control
+-- Xilinx	: /CMC/tools/xilinx/13.4/ISE_DS/ISE/
+--             
+-- Purpose:    
+--     This VHDL netlist is a verification model and uses simulation 
+--     primitives which may not represent the true implementation of the 
+--     device, however the netlist is functionally correct and should not 
+--     be modified. This file cannot be synthesized and should only be used 
+--     with supported simulation tools.
+--             
+-- Reference:  
+--     Command Line Tools User Guide, Chapter 23
+--     Synthesis and Simulation Design Guide, Chapter 6
+--             
+--------------------------------------------------------------------------------
+
